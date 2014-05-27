@@ -12,20 +12,23 @@ The corresponding session ID is stored in the field "S" in each record. The time
 
 You can confirm you read the dataset correctly with this information: the test group revenue is r_t = 32211.62 and the control group revenue is r_c = 9362.55.
 
-##Tasks
+##Task
 
-1. read the data with your programming language of choice and write code that will train a prediction model that will decide on a page view basis (with knowledge of the previous page views) when to display an incentive to the visitor (maximizing the revenue per session).
+Create a prediction model that will lead to an increase in shop revenue by deciding whether or not to display an incentive to the shop visitor on a page view basis.
 
- Describe how you would evaluate the performance of it.
+1. read the data with your programming language of choice and write code that will train a prediction model that will decide on a page view basis (with knowledge of the previous page views) when to display an incentive to the visitor. (~3 hrs)
 
- *Note* in your code, you may of course assume that your dataset doesn't contain just 10,000 but 1,000,000+ sessions
-2. (optional) how can you make sure you further improve the prediction model utilizing data that was collected after the prediction model was deployed
+ Note: in your choice of algorithms, you may of course assume that your dataset doesn't contain just 10,000 but 1,000,000+ sessions
+
+2. Describe how you would evaluate the performance of it. (~ 0.5hrs)
+
+3. Imagine your prediction model went live to actually target online-shop visitors of our customers. How can you make sure you will continuously improve the prediction model? (~ 0.5hrs)
 
 ##Data
 
-See this repository, it is a linebreak separated JSON strings each representing a single page view.
+JSON file, each line represents a single page view.
 
-##Solution
+##Answers
 
-Please answer these questions by providing your source code / scripts that read the data from the JSON file and then train the models. Put remarks and explanation in comments. Use your language of choice.
+Please solve the first task using your programming language of choice and include the source code in your solution. Put remarks and explanation in comments.
 
